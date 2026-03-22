@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-av-bg text-slate-100;
+}
+
+::selection {
+  @apply bg-cyan-500/30 text-white;
+}
